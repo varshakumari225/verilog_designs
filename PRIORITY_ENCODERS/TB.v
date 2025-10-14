@@ -10,6 +10,7 @@ module tb;
     i=4'b01xx;#10;
     $display("output of i=%b is y=%b",i,y);
     repeat(3) begin
+      //Applying random test inputs
       i=$random;#10;
     $display("output of i=%b is y=%b",i,y);
     end
