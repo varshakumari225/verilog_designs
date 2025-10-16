@@ -1,0 +1,10 @@
+module counter(input clk,rst,load,input [3:0]data,output reg [3:0]count);
+  always @(posedge clk) begin
+    if(rst)
+      count<=4'b0;
+    else if (load==1)
+      count=data;
+    else
+      count<=4'b1;
+  end
+endmodule
