@@ -8,6 +8,6 @@ module counters  #(parameter N=3) (input [N-1:0] data,input load,clk,rst,output 
       //UPCOUNTER
       count=count+1;
     //DOWN COUNTER
-    count=count_1;
+    count=count-1;
   end
 endmodule
