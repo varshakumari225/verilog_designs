@@ -7,6 +7,8 @@
 # WAVWFORMS 
 
 <img width="1913" height="225" alt="image" src="https://github.com/user-attachments/assets/160ff796-60c6-4873-b571-72ccc8c5d985" />
+
 # OUTPUTS OBSERVATIONS
-# the values are evaluated at the first clk edge and assigned to LHS for the next clk edge.
+
+# The values are evaluated at the first clk edge and assigned to LHS for the next clk edge.
 
