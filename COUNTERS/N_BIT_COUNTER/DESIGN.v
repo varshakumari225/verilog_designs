@@ -5,6 +5,9 @@ module counters  #(parameter N=3) (input [N-1:0] data,input load,clk,rst,output 
     else if(load)
       count=data;
     else
+      //UPCOUNTER
       count=count+1;
+    //DOWN COUNTER
+    count=count_1;
   end
 endmodule
