@@ -5,6 +5,6 @@ module counter(input clk,rst,load,input [3:0]data,output reg [3:0]count);
     else if (load)
       count=data;
     else
-      count=4'b1;
+      count=count+1;
   end
 endmodule
