@@ -8,7 +8,7 @@ module tb;
   initial begin
     $dumpfile("dump.vcd");
     $dumpvars;
-    $monitor("at time %t clr=%b d=%b q=%b",$time,clr,d,q);
+    $monitor("at time %t clr=%b q=%b",$time,clr,q);
     clr=1;#10;
     clr=0;
     #100;
