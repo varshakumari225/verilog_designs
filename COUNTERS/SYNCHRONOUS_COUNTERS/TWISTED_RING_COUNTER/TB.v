@@ -11,7 +11,6 @@ module tb;
     $monitor("at time %t clr=%b d=%b q=%b",$time,clr,d,q);
     clr=1;#10;
     clr=0;
-    d=4'b1;
     #100;
     $finish;
   end
