@@ -1,8 +1,10 @@
 
 # DESIGN CODE
 
-<img width="1878" height="847" alt="image" src="https://github.com/user-attachments/assets/fb1a1f46-eeb6-443c-830a-f5dfe232862b" />
+<img width="1878" height="843" alt="image" src="https://github.com/user-attachments/assets/dbb97a84-a925-491e-bb03-bf9a01e760b2" />
+
 
 # WAVWFORMS
 
-<img width="1905" height="275" alt="image" src="https://github.com/user-attachments/assets/7d1067d7-1394-459c-8a44-4b4cff8733ca" />
+<img width="1905" height="301" alt="image" src="https://github.com/user-attachments/assets/98a7cdbe-7d83-4100-8f9c-f0ad1bf2dd0b" />
+
