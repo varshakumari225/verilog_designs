@@ -3,6 +3,8 @@
 
 <img width="1355" height="622" alt="image" src="https://github.com/user-attachments/assets/e950df9c-991a-4401-9726-d6bd00cd965d" />
 
+# output observation 
+the clock is changing for every 5ns so that's why it is printing values for every 5ns.
 
 # WAVEFORMS 
 
