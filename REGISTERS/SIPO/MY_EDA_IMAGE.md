@@ -1,5 +1,5 @@
 
-# DESIN CODE
+# DESIGN CODE
 
 <img width="1356" height="628" alt="image" src="https://github.com/user-attachments/assets/ada04eab-c727-48ac-b877-6968270ef7d9" />
 
