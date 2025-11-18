@@ -1,4 +1,4 @@
-module tb;
+module piso_tb;
 
   localparam width = 4;
 
