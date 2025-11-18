@@ -9,21 +9,17 @@ output reg data_o,
 output reg valid_out,
 output reg ready_out
 );
-  
-  //creating memory to store the data
-  
   reg [width-1:0]temp;
   reg [$clog2(width):0]count;
   reg shift;
   
   //data in the memory
   
-  initial begin
-    $monitor("memory data %b %b %b %b",temp[0],temp[1],temp[2],temp[3]);
-  end
+ //initial begin
+   //$monitor("memory data %b %b %b %b",temp[0],temp[1],temp[2],temp[3]);
+ //end
  
   //WRITE OPERATION
-  
   always @(posedge clk_rx_in or posedge rst)begin
     if(rst)begin
       temp<=0;
@@ -40,10 +36,8 @@ output reg ready_out
       else ready_out<=1'b0;
     end
   end
-  
   //READ OPERATION
-  
-  always @(posedge clk_tx_in or negedge clk_tx_in)begin
+  always @(posedge clk_tx_in )begin
     if(rst)begin
       valid_out<=1'b0;
       data_o<='b0;
@@ -51,17 +45,21 @@ output reg ready_out
       shift<=1'b0;
     end
       else if(shift && count>0)begin
-        data_o<=temp[width-1];//READING FROM MSB
+        data_o<=temp[width-1];//READING FROM MSB 
           temp<=temp<<1;
+        //temp <= {temp[width-2:0], 1'b0};
           valid_out<=1'b1;
         count<=count-1;
+        //at first count is 4 
        if(count==1)
-        shift<=1'b0;
+         shift<=1'b0;
+      end
+    
        else 
     	valid_out<=1'b0;
-      end
+      
   end
-
+ 
 endmodule
         
         
