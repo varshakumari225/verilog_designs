@@ -1,5 +1,5 @@
 
-# design code & wavwforms
+# design code & waveforms
 
 <img width="1667" height="906" alt="image" src="https://github.com/user-attachments/assets/9e7d4fd3-60f0-47d4-bda6-9ae6a12222d6" />
 
